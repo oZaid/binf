@@ -2,12 +2,12 @@
 const BTNS = document.querySelectorAll('.container button')
 const question = new Map([
     [1,new Map([
-        ["qu","What's Your Name?"],
-        [1,"Ibrahim"],
-        [2,"Zaid"],
-        [3,"Fares"],
-        [4,"Omar"],
-        ["correct","Zaid"]
+        ["qu","What's The Doctor Name?"],
+        [1,"Basel"],
+        [2,"Quaiser"],
+        [3,"Zaid"],
+        [4,"Nasser"],
+        ["correct","Quaiser"]
     ])],
 
     [6,new Map([
@@ -183,7 +183,7 @@ const question = new Map([
         ["qu","RNA Sequencing Identify..."],
         [1,"Tissue specific gene expression"],
         [2,"tRNA, mRNA, rRNA"],
-        [3,"primase"],
+        [3,"Primer"],
         [4,"DNA Sequence"],
         ["correct","Tissue specific gene expression"]
     ])],
