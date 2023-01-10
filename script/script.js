@@ -51,7 +51,7 @@ const question = new Map([
         [4,"Finger"],
         ["correct","Heart"]
     ])],
-    [7,new Map([
+    [18,new Map([
         ["qu","Biology"],
         [1,"DNA -> Protein -> Phenotype"],
         [2,"DNA -> Protein -> RNA"],
@@ -75,7 +75,7 @@ const question = new Map([
         [4,"Organism, DNA, Cell"],
         ["correct","Cell, Organism, Tree Of Life"]
     ])],
-    [10,new Map([
+    [19,new Map([
         ["qu","Skills needed for Bioinformatics"],
         [1,"Swimming, Fall asleep fast, Drawing"],
         [2,"Maths, Microscopes, Computer science"],
@@ -195,7 +195,7 @@ const question = new Map([
         [4,"All of the above"],
         ["correct","All of the above"]
     ])],
-    [27,new Map([
+    [13,new Map([
         ["qu","RNA Sequencing is"],
         [1,"High-throughput sequencing method"],
         [2,"Maxam-Gilbert chemical cleavage method"],
@@ -203,7 +203,7 @@ const question = new Map([
         [4,"All of the above"],
         ["correct","High-throughput sequencing method"]
     ])],
-    [14,new Map([
+    [21,new Map([
         ["qu","Example of a protein function"],
         [1,"Catalysis"],
         [2,"Transport: O2..."],
@@ -230,30 +230,6 @@ const question = new Map([
     [true,"Good"],
     [false,"Try Again!"]
 ])
-let mm = 1;
-let rest = document.createElement('button');
-rest.textContent = `Reset`
-rest.addEventListener("click",()=>{
-    location.reload()
-})
-for (const btn of BTNS){
-btn.addEventListener('click',(e)=>{
-    if (mm>23&&e.target.textContent === question.get(mm).get("correct")){
-        document.querySelector('.quiz-app').append(rest)
-        e.target.style.backgroundColor = `green`
-    } else if(
-    e.target.textContent === question.get(mm).get("correct")
-    ){
-        e.target.style.backgroundColor = `green`
-        question.get(true);
-        document.querySelector(".quiz-app").append(bbttnn);
-    } else {
-        e.target.style.backgroundColor = `firebrick`
-        console.log(question.get(false))
-    }
-
-})
-}
 let bbttnn = document.createElement('button');
 bbttnn.textContent = 'Next';
 
