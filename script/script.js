@@ -10,7 +10,7 @@ const question = new Map([
         ["correct","Zaid"]
     ])],
 
-    [2,new Map([
+    [6,new Map([
         ["qu","What is the Turing Machine?"],
         [1,"Representative of RNA"],
         [2,"Representative of genetic Data"],
@@ -19,7 +19,7 @@ const question = new Map([
         ["correct","Representative of DNA"]
     ])],
 
-    [3,new Map([
+    [7,new Map([
         ["qu","What is the Components of Turing Machine?"],
         [1,"a control unit and a tape"],
         [2,"a read-write head"],
@@ -27,7 +27,7 @@ const question = new Map([
         [4,"None"],
         ["correct","All of the Above"]
     ])],
-    [4,new Map([
+    [17,new Map([
         ["qu","Systems Biology consists of..."],
         [1,"DNA, RNA, Protiens"],
         [2,"Genomics,Bioinformatics, Structural Genomics, Proteomics"],
@@ -35,7 +35,7 @@ const question = new Map([
         [4,"MacChkn, Chips, 7Up"],
         ["correct","Genomics,Bioinformatics, Structural Genomics, Proteomics"]
     ])],
-    [5,new Map([
+    [2,new Map([
         ["qu","What Is Computational Biomodeling?"],
         [1,"a field concerned with building minecraft houses."],
         [2,"a field concerned with building data of biological organs and systems"],
@@ -43,7 +43,7 @@ const question = new Map([
         [4,"a field concerned with synthesize DNA"],
         ["correct","a field concerned with building computer models of biological systems."]
     ])],
-    [6,new Map([
+    [10,new Map([
         ["qu","Computational Biomodeling used to develop an integrated model of a..."],
         [1,"Liver"],
         [2,"😉"],
@@ -59,7 +59,7 @@ const question = new Map([
         [4,"1 and 3"],
         ["correct","1 and 3"]
     ])],
-    [8,new Map([
+    [4,new Map([
         ["qu","What is Bioinformatics?"],
         [1,"Intersection of Biology and Computers"],
         [2,"Intersection of King Khaled And King Fahad roads"],
@@ -67,7 +67,7 @@ const question = new Map([
         [4,"Intersection of Biology and Math"],
         ["correct","Intersection of Biology and Computers"]
     ])],
-    [9,new Map([
+    [3,new Map([
         ["qu","What is the Three Perspectives of Bioinformatics?"],
         [1,"DNA, Cell, Organ"],
         [2,"Cell, Proteins, Tree Of Life"],
@@ -76,14 +76,14 @@ const question = new Map([
         ["correct","Cell, Organism, Tree Of Life"]
     ])],
     [10,new Map([
-        ["qu","Skills needed for BioInformatics"],
+        ["qu","Skills needed for Bioinformatics"],
         [1,"Swimming, Fall asleep fast, Drawing"],
         [2,"Maths, Microscopes, Computer science"],
         [3,"Computer science, Genetics, Chimestry"],
         [4,"Computer science, Molcular Biology, Statistics"],
         ["correct","Computer science, Molcular Biology, Statistics"]
     ])],
-    [11,new Map([
+    [25,new Map([
         ["qu","Why is bioinformatics hot?"],
         [1,"Large Data needs to be analyzed, Leads to Important discoveries"],
         [2,"High Salary"],
@@ -91,7 +91,7 @@ const question = new Map([
         [4,"واضح الجواب"],
         ["correct","Large Data needs to be analyzed, Leads to Important discoveries"]
     ])],
-    [12,new Map([
+    [22,new Map([
         ["qu","Computational Biology is..."],
         [1,"The study and application of computer"],
         [2,"The study and application of computing methods for classical biology"],
@@ -99,7 +99,7 @@ const question = new Map([
         [4,"The study and application of the Data from organism"],
         ["correct","The study and application of computing methods for classical biology"]
     ])],
-    [13,new Map([
+    [16,new Map([
         ["qu","Computational Biology Primarily concerned with..."],
         [1,"Evolutionary, Population, Theoretical Biology"],
         [2,"DNA, Evolution, Biology"],
@@ -115,7 +115,7 @@ const question = new Map([
         [4,"Chemistry"],
         ["correct","How the data is manipulated"]
     ])],
-    [15,new Map([
+    [23,new Map([
         ["qu","Cheminformatics mainly concerned with?"],
         [1,"Chimestry"],
         [2,"Drug Chemistry"],
@@ -123,15 +123,15 @@ const question = new Map([
         [4,"Amino Acids"],
         ["correct","Drug Chemistry"]
     ])],
-    [16,new Map([
-        ["qu","ًWhat is Proteomics?"],
+    [9,new Map([
+        ["qu","What is Proteomics?"],
         [1,"The study and application of computer problems"],
         [2,"The study and application of computing methods for classical biology"],
         [3,"The study and application of lipids functions"],
         [4,"Study of how the genome is expressed in proteins, and of how these proteins function and interact"],
         ["correct","Study of how the genome is expressed in proteins, and of how these proteins function and interact"]
     ])],
-    [17,new Map([
+    [12,new Map([
         ["qu","Functional Genomics Focus more on Dynamic acpects like:"],
         [1,"Gene transcription, translation"],
         [2,"Regulation of gene expression and protein–protein interactions"],
@@ -139,7 +139,7 @@ const question = new Map([
         [4,"All of the above"],
         ["correct","All of the above"]
     ])],
-    [18,new Map([
+    [26,new Map([
         ["qu","Pharmacogenomics use genomes to identify..."],
         [1,"Parents"],
         [2,"Phenotype change"],
@@ -147,7 +147,7 @@ const question = new Map([
         [4,"Body response to the drug"],
         ["correct","Drug targets"]
     ])],
-    [19,new Map([
+    [15,new Map([
         ["qu","Pharmacogenetics use genomes to detrmine..."],
         [1,"Drug targets"],
         [2,"DNA or RNA"],
@@ -155,7 +155,7 @@ const question = new Map([
         [4,"None of the above"],
         ["correct","Body response to the drug"]
     ])],
-    [20,new Map([
+    [27,new Map([
         ["qu","Structural Bioinformatics predicts..."],
         [1,"2030"],
         [2,"Weather"],
@@ -163,15 +163,15 @@ const question = new Map([
         [4,"Match score"],
         ["correct","Three-dimensional structure"]
     ])],
-    [21,new Map([
+    [20,new Map([
         ["qu","Bioinformatics Tools Help Scientists With:"],
-        [1,"Drive Complex Biological Data Sets"],
+        [1,"Steal Complex Biological Data Sets"],
         [2,"Hide Complex Biological Data Sets"],
-        [3,"Fix Complex Biological Data Sets"],
+        [3,"Sell Complex Biological Data Sets"],
         [4,"None of the above"],
         ["correct","None of the above"]
     ])],
-    [22,new Map([
+    [24,new Map([
         ["qu","DNA Sequencing is"],
         [1,"The process of determining the order of bases (ATCG) along with a RNA strand"],
         [2,"rRNA sequence"],
@@ -179,7 +179,7 @@ const question = new Map([
         [4,"The process of determining the order of bases (ATCG) along with a DNA strand"],
         ["correct","The process of determining the order of bases (ATCG) along with a DNA strand"]
     ])],
-    [23,new Map([
+    [8,new Map([
         ["qu","RNA Sequencing Identify..."],
         [1,"Tissue specific gene expression"],
         [2,"tRNA, mRNA, rRNA"],
@@ -187,7 +187,7 @@ const question = new Map([
         [4,"DNA Sequence"],
         ["correct","Tissue specific gene expression"]
     ])],
-    [24,new Map([
+    [5,new Map([
         ["qu","Methods of DNA Sequencing"],
         [1,"Sanger dideoxy"],
         [2,"Maxam-Gilbert chemical cleavage method"],
@@ -195,7 +195,7 @@ const question = new Map([
         [4,"All of the above"],
         ["correct","All of the above"]
     ])],
-    [25,new Map([
+    [27,new Map([
         ["qu","RNA Sequencing is"],
         [1,"High-throughput sequencing method"],
         [2,"Maxam-Gilbert chemical cleavage method"],
@@ -203,7 +203,7 @@ const question = new Map([
         [4,"All of the above"],
         ["correct","High-throughput sequencing method"]
     ])],
-    [26,new Map([
+    [14,new Map([
         ["qu","Example of a protein function"],
         [1,"Catalysis"],
         [2,"Transport: O2..."],
@@ -211,7 +211,7 @@ const question = new Map([
         [4,"All of the above"],
         ["correct","All of the above"]
     ])],
-    [27,new Map([
+    [11,new Map([
         ["qu","Levels of protein structure"],
         [1,"Double-helix"],
         [2,"Primary, Secondary, Tertiary, Quaternary"],
