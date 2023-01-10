@@ -1,7 +1,8 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-*{font-family: Poppins;margin: 0;padding: 0;box-sizing: border-box;scroll-behavior: smooth;}
+*{font-family: 'Roboto Mono', monospace;margin: 0;padding: 0;box-sizing: border-box;scroll-behavior: smooth;}
 body {height: 100vh;width: 100%;box-sizing: border-box;display: flex;justify-content: center;align-items: center;
 overflow: hidden;}
 
