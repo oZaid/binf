@@ -299,6 +299,7 @@ const startBTN = document.querySelector('#start');
 
 
 startBTN.addEventListener("click",()=>{
+    alert('Hello There!')
     document.querySelector('.big-container').classList.remove("hide")
     document.querySelector('.start').classList.add("hide")
 })
