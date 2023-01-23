@@ -367,7 +367,7 @@ let nextBTN =document.querySelector('#next')
 let prevBTN =document.querySelector('#prev')
 // Next Reloader --------------------------------
 nextBTN.addEventListener("click",()=>{
-    console.log(score);
+//     console.log(score);
     nextBTN.disabled = true;
     prevBTN.disabled = false;
     for (const btn of BTNS){
