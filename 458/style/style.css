@@ -1,0 +1,121 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{font-family: 'Roboto Mono', monospace;margin: 0;padding: 0;box-sizing: border-box;scroll-behavior: smooth;}
+body {height: 100vh;width: 100%;box-sizing: border-box;display: flex;justify-content: center;align-items: center;
+overflow: hidden;}
+
+.big-container{
+	height: 100vh;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(356deg, rgba(230,230,230,1) 0%, rgba(255,255,255,1) 100%);
+}
+.container {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+button {
+	padding: 1px 4px;
+	/* height: 26.5px; */
+	width: 75px;
+	border: .8px solid #497174;
+	border-radius: 6px;
+	background-color: #222222;
+	color: #EB6440;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+button:active{
+	scale:.97;
+	opacity: .7;
+}
+input {
+	/* height: 26.5px; */
+	text-align: center;
+	border-radius: 4px;
+	border: 1px solid gray;
+	margin: 10px 0;
+}
+input:focus {
+	outline: none;
+}
+
+.container {
+	width: 360px;
+	min-width: 360px;
+	border: 3px solid #3D5656;
+	height: 300px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	background-color: #497174;
+	box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.container button{
+	display: block;
+	width: 90%;
+	margin: 15px 0;
+	font-size: 14px;
+	/* color: #FED049; */
+}
+h2{
+	text-align: center;
+	color: #EB6440;
+	text-shadow: #D6E4E5 2px 3px 1px;
+}
+.quiz-app{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.start {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: fixed;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(356deg, rgba(230,230,230,1) 0%, rgba(255,255,255,1) 100%);
+}
+.hide{
+	display: none;
+	transition: 1s ease;
+}
+h1{
+	text-align: center;
+	margin: 0 4px;
+}
+
+button:disabled{
+	background-color: rgb(121, 102, 102);
+	color: rgb(200, 200, 200);
+}
+
+#top {
+	position: fixed;
+	top: 10px;
+	left:5px;
+}
+
+#stu-text{
+	font-size: 20px;
+	color: black;
+	position: fixed;
+	top: 80px;
+	opacity: 0;
+}
+#stu-text2{
+	font-size: 20px;
+	color: firebrick;
+	position: fixed;
+	top: 80px;
+	opacity: 0;
+}
